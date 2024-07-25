@@ -10,7 +10,6 @@ def home_view(request, *args, **kwargs):
 def tweet_detail_view(request, tweet_id, *args, **kwargs):
     data = {
         "id": tweet_id,
-        "content": obj.content,
         # "image_path": object.image.url
     }
     status = 200
