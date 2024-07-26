@@ -3,6 +3,7 @@
         - text
         - image
     - delete
+    - liking
     - retweeting
 2. Users
     - register
